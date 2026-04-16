@@ -14,7 +14,7 @@ const projects = [
     {
         title: "VideoGames Sales Fabric / Power BI Test",
         description:
-            "An analytics project focused on video game sales, using Microsoft Fabric and Power BI to explore data, model insights, and communicate results through dashboards.",
+            "An analytics project focused on video game sales, developed using Microsoft Fabric, Power BI, and GitHub Copilot CLI to explore data, model insights, and communicate results through dashboards.",
         status: "First featured project",
         repository: "https://github.com/Cecex-git/VideoGames-sales-Fabric-PBI-Test",
         liveLabel: "Repository",
