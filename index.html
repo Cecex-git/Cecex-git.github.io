@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cecex | Project Showcase</title>
+    <meta
+        name="description"
+        content="A GitHub Pages site for projects, experiments, and technologies currently being explored."
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page-shell">
+        <header class="hero">
+            <nav class="topbar">
+                <a class="brand" href="#top">Cecex</a>
+                <div class="nav-links">
+                    <a href="#projects">Projects</a>
+                    <a href="#tech">Technologies</a>
+                    <a href="#next">Next up</a>
+                </div>
+            </nav>
+
+            <section class="hero-copy" id="top">
+                <p class="eyebrow">Project and technology showcase</p>
+                <h1>Projects that document what I am learning and building.</h1>
+                <p class="lead">
+                    This page tracks hands-on work across data, analytics, and business intelligence tooling,
+                    starting with a Microsoft Fabric and Power BI case study.
+                </p>
+
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#projects">View projects</a>
+                    <a class="button button-secondary" href="https://github.com/Cecex-git" target="_blank" rel="noreferrer">
+                        GitHub profile
+                    </a>
+                </div>
+            </section>
+        </header>
+
+        <main>
+            <section class="panel intro-grid">
+                <article>
+                    <p class="section-label">Focus</p>
+                    <h2>Building a site around practical experiments.</h2>
+                    <p>
+                        Instead of listing tools in isolation, each project highlights a concrete use case,
+                        the stack behind it, and the skills being developed along the way.
+                    </p>
+                </article>
+
+                <article class="highlight-card">
+                    <p class="section-label">Current direction</p>
+                    <ul class="highlight-list">
+                        <li>Business intelligence storytelling</li>
+                        <li>Microsoft Fabric workflows</li>
+                        <li>Power BI data modeling</li>
+                        <li>Reusable structure for future projects</li>
+                    </ul>
+                </article>
+            </section>
+
+            <section class="panel" id="tech">
+                <div class="section-heading">
+                    <p class="section-label">Technologies</p>
+                    <h2>What I am exploring right now</h2>
+                </div>
+                <div class="tag-grid" id="technology-list"></div>
+            </section>
+
+            <section class="panel" id="projects">
+                <div class="section-heading">
+                    <p class="section-label">Featured work</p>
+                    <h2>Projects in this site</h2>
+                </div>
+                <div class="project-grid" id="project-list"></div>
+            </section>
+
+            <section class="panel roadmap" id="next">
+                <div class="section-heading">
+                    <p class="section-label">Next up</p>
+                    <h2>How this site can grow</h2>
+                </div>
+                <div class="roadmap-grid">
+                    <article class="roadmap-card">
+                        <span>01</span>
+                        <h3>Add more projects</h3>
+                        <p>Include new repository cards as you explore more tools and case studies.</p>
+                    </article>
+                    <article class="roadmap-card">
+                        <span>02</span>
+                        <h3>Attach visuals</h3>
+                        <p>Add dashboard screenshots, architecture sketches, or short write-ups for each project.</p>
+                    </article>
+                    <article class="roadmap-card">
+                        <span>03</span>
+                        <h3>Share your process</h3>
+                        <p>Document what you learned, what worked, and what you want to improve in the next iteration.</p>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>Built as a static GitHub Pages site so it stays simple to maintain and easy to extend.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
