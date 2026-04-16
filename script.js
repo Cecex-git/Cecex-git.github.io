@@ -6,6 +6,7 @@ const technologies = [
     "Data Visualization",
     "Business Intelligence",
     "Analytics Storytelling",
+    "GitHub Copilot CLI",
     "GitHub Pages"
 ];
 
