@@ -109,9 +109,7 @@ h2 {
 .lead,
 .intro-grid p,
 .project-card p,
-.roadmap-card p,
-.highlight-list,
-.footer {
+.highlight-list {
     color: var(--muted);
     line-height: 1.7;
 }
@@ -159,8 +157,7 @@ main {
 .intro-grid,
 .section-heading,
 .project-meta,
-.project-links,
-.roadmap-grid {
+.project-links {
     display: grid;
 }
 
@@ -187,8 +184,7 @@ main {
 }
 
 .tag-grid,
-.project-grid,
-.roadmap-grid {
+.project-grid {
     gap: 1rem;
 }
 
@@ -209,8 +205,7 @@ main {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
 
-.project-card,
-.roadmap-card {
+.project-card {
     padding: 1.35rem;
     border-radius: 22px;
     border: 1px solid var(--border);
@@ -274,29 +269,6 @@ main {
 
 .project-link.primary {
     background: linear-gradient(135deg, rgba(96, 165, 250, 0.18), rgba(139, 92, 246, 0.18));
-}
-
-.roadmap-grid {
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-}
-
-.roadmap-card span {
-    display: inline-flex;
-    width: 2.25rem;
-    height: 2.25rem;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    background: rgba(96, 165, 250, 0.12);
-    color: var(--accent);
-    font-weight: 800;
-    margin-bottom: 1rem;
-}
-
-.footer {
-    padding: 1.5rem 0 0;
-    text-align: center;
-    font-size: 0.95rem;
 }
 
 @media (max-width: 760px) {
