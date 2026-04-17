@@ -3,9 +3,7 @@ const technologies = [
     "Power BI",
     "DAX",
     "Data Modeling",
-    "Data Visualization",
     "Business Intelligence",
-    "Analytics Storytelling",
     "GitHub Copilot CLI",
     "GitHub Pages"
 ];
@@ -20,7 +18,7 @@ const projects = [
         liveLabel: "Repository",
         detailsLabel: "GitHub profile",
         detailsUrl: "https://github.com/Cecex-git",
-        stack: ["Microsoft Fabric", "Power BI", "DAX", "Data Analysis"]
+        stack: ["Microsoft Fabric", "Power BI", "DAX", "Data Analysis", "CI/CD"]
     }
 ];
 
