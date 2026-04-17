@@ -4,8 +4,7 @@ const technologies = [
     "DAX",
     "Data Modeling",
     "Business Intelligence",
-    "GitHub Copilot CLI",
-    "GitHub Pages"
+    "GitHub Copilot CLI"
 ];
 
 const projects = [
